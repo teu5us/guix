@@ -5140,7 +5140,7 @@ experience.")
   (sbcl-package->ecl-package sbcl-clunit))
 
 (define-public sbcl-py4cl
-  (let ((commit "4c8a2b0814fd311f978964f825ce012290f60136")
+  (let ((commit "92b5bc2edb515507ed75bee12a9d4ff1f1c4c1e3")
         (revision "1"))
     (package
       (name "sbcl-py4cl")
@@ -5154,7 +5154,7 @@ experience.")
          (file-name (git-file-name name version))
          (sha256
           (base32
-           "15mk7qdqjkj56gdnbyrdyz6r7m1h26ldvn6ch96pmvg5vmr1m45r"))
+           "02h7bg4jfvpggn1k2rqdy994yiklcdrxzbx46x1b5fp6xaiqsmyg"))
          (modules '((guix build utils)))))
       (build-system asdf-build-system/sbcl)
       (native-inputs
